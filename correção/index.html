@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script type="module" src="./App.js" defer></script>
+</head>
+
+<body>
+    <div id="principal">
+        <h1>Inserindo e processando dados com classes e objetos</h1>
+        <form id="novaPessoa">
+            <input type="text" name="nome" placeholder="Nome Completo" required>
+            <input type="date" name="nascimento" required>
+            <select name="funcao" required>
+                <option value="" date-default disabled selected></option>
+                <option value="Diretor">Diretor</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Supervisor">Supervisor</option>
+                <option value="Encarregado">Encarregado</option>
+            </select>
+            <input type="submit" value="Inserir">
+
+        </form>
+    </div>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nascimento</th>
+                    <th>Função</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </main>
+</body>
+</html>

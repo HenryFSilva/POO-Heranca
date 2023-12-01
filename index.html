@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Lista.css">
+</head>
+
+<body>
+    <h1 class="titulo">Inserindo e processando dados em tabela</h1><BR></BR>
+
+    <div class="elementos">
+        <label>Nome:</label>
+        <input type="text" class="nome">
+        <label>Data Nasc:</label>
+        <input type="date" class="data">
+        <label>Função</label>
+        <select name="funcao" class="fun">
+            <option value="Select func.">Selecione a função</option>
+            <option>Programador</option>
+            <option>Analista</option>
+            <option>Estoquista</option>
+        </select>
+        <button>Inserir</button>
+    </div>
+    <br>
+    <div class="tabela">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Data Nasc.</th>
+                    <th>Função</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+
+    <script type="module" src="App.js" defer></script>
+</body>
+
+</html>
